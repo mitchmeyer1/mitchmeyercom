@@ -1,0 +1,78 @@
+@font-face {
+  font-family: 'OliveVillage';
+  src: url('OliveVillage-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'OliveVillage', sans-serif;
+}
+
+.logo-text {
+  font-family: 'Limelight', sans-serif;
+  font-size: 2.8rem; /* tweak as needed */
+  font-weight: 400;
+  text-decoration: none;
+  color: white; /* or whatever matches your bg */
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background: url('background.jpeg');
+  background-size: cover;
+}
+
+h1, h3 {
+  margin: 0;
+  color: white;
+  text-shadow: 2px 2px 4px black;
+}
+h1 {
+  font-size: 46pt;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  padding: 30px;
+}
+
+iframe {
+  margin-top: 20px;
+
+}
+
+.logo {
+  height: 40px;
+}
+
+nav a {
+  margin-left: 1rem;
+  text-decoration: none;
+  color: #fff;
+}
+footer {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+
+main {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  width: 100vw;
+  height: 100vh;
+}
+p {
+  color: black;
+  text-shadow: 0px 0px 5px white;
+}
